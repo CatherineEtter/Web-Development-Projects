@@ -1,0 +1,88 @@
+html,body {
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+    background-color: #697475;
+    font-family: monospace;
+}
+#centerWrapper {
+    height: 100%;
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    flex-direction: column;
+}
+.centerPadding {
+    height: 20px;
+    margin: 0px;
+    flex: 0 0 5%;
+}
+#cypher {
+    height: inherit;
+    padding: 10px;
+    flex: 1 0 90%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+/************************/
+#title {
+    margin: inherit;
+    padding: 20px 0px 20px 0px;
+    flex: initial;
+}
+#title h1 {
+    margin: 0px;
+    padding: 0px;
+    font: small-caps 40px monospace;
+}
+#title p {
+    max-width: 700px;
+    margin: auto;
+}
+#boxWrapper{
+    width: 100%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 5px;   
+    flex: 0 1 350px;
+    box-sizing: border-box;
+}
+#boxWrapper p {
+    margin: 0px;
+    font: small-caps 20px monospace;
+}
+#menu {
+    margin: inherit;
+    padding: 5px 0px 5px 0px;
+    text-align: right;
+}
+#selectKey {
+    font: 15px monospace;
+}
+#menu li {
+    display: inline-block;
+}
+button {
+    width: 90px;
+    margin: 0px;
+    border: 2px #586060 solid;
+    background-color: #697475;
+}
+button:hover {
+    background-color: #7f8d8e;
+}
+input[type="checkbox"] {
+    margin: 0px 5px 0px 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+textarea {
+    height: 175px;
+    width: 100%;
+    margin: inherit;
+    padding: 4px;
+    border: 2px #E6E6E6 solid;
+    background-color: #E5ECED;
+    box-sizing: border-box;
+    resize: none;
+}

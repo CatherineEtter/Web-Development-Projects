@@ -1,0 +1,115 @@
+html {
+  background-color: #FB7729;
+  background: url('images/TexturedBackgroundRadGrad.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+#wrapperMain {
+  height: 100%;
+}
+
+#center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #EEEEEE;
+  margin: 0% 10% 0% 10%;
+}
+
+#header {
+  flex: 0 0 15%;
+}
+
+#displaytd {
+  flex: 0 0 40%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#time,
+#date {
+  margin: inherit;
+  margin-top: 10px;
+  text-shadow: 2px 2px grey;
+  text-align: center;
+  font: 120px arial, sans-serif;
+}
+
+hr {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+#date {
+  margin: inherit;
+  margin-bottom: 10px;
+  font: 20px arial, sans-serif;
+  text-shadow: 1px 1px grey;
+}
+
+#content {
+  flex: 0 0 30%;
+}
+
+#searchBar {
+  margin-top: 50px;
+}
+
+#search {
+  width: 150px;
+}
+
+#button {
+  color: inherit;
+  border: 2px solid rgba(40, 40, 40, .5);
+  background-color: rgba(255, 255, 255, .2);
+}
+
+#button:hover {
+  background-color: rgba(255, 255, 255, .4);
+}
+
+#links {
+  margin-top: 20px;
+  height: 80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 5px;
+  text-shadow: 1px 1px grey;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (min-width:480px) {
+  li a:hover {
+    background-color: rgba(255, 255, 255, .1);
+  }
+  #search {
+    width: 250px;
+  }
+  hr {
+    width: 350px;
+  }
+}
+
+#footer {
+  flex: 0 0 15%;
+}

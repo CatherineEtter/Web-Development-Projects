@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="layout.css" type="text/css">
+</head>
+<body>
+    <div id="wrapperMain">
+        <div id="center">
+            <div id="header">
+            </div>
+            <div id="displaytd">
+                <p id="time">TIME</p>
+                <p id="date">DATE</p>
+            </div>
+            <div id="content">
+                <div id="searchBar">
+                    <form method="get" action="http://www.google.com/search" target="_blank">
+                        <input type="text" name="q" placeholder="Google" id="search">
+                        <input type="submit" value="Go" name="" id="button">
+                    </form>
+                </div>
+                <div id="links">
+                    <hr>
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.pandora.com/account/sign-in" target="_blank">PANDORA</a></li>
+                            <li><a href="https://play.spotify.com" target="_blank">SPOTIFY</a></li>
+                            <li><a href="https://login.stmarytx.edu/cas/login?service=https%3A%2F%2Fgateway.stmarytx.edu%2Fc%2Fportal%2Flogin" target="_blank">STMU</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1#identifie" target="_blank">GMAIL</a></li>
+                            <li><a href="https://codepen.io/login" target="_blank">CODEPEN</a></li>
+                            <li><a href="https://github.com/login" target="_blank">GITHUB</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function clock(){
+        var now = new Date();
+        hours=now.getHours();
+        minutes=now.getMinutes();
+        hours=((hours + 11) % 12 + 1)
+        if (minutes<10){
+                time=hours+":"+"0"+minutes;
+        }
+        else{
+            time = hours+":"+minutes;
+        }
+        document.getElementById("date").innerHTML=now.toDateString();
+        document.getElementById("time").innerHTML=time;
+        setTimeout(clock,1000);
+    }
+    clock();
+    //http://stackoverflow.com/questions/4898574/converting-24-hour-time-to-12-hour-time-w-am-pm-using-javascript
+</script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <title>Caesar Cypher</title>
+    </head>
+    <body>
+        <div id="centerWrapper">
+            <div id="header" class="centerPadding">
+            </div>
+            <div id="cypher">
+                <div id="title">
+                    <h1>Caesar Cypher</h1>
+                    <p>Choose a key to encrypt/decrypt with and press encrypt or decrypt.<br> A Caesar Cypher is a simple encryption tool that takes a key, such as 13, and encrypts each letter replacing it with the letter 13 spaces after it on the alphabet.</p>
+                </div>
+                <div id="boxWrapper">
+                    <p>Input</p>
+                    <ul id="menu">
+                        <li>Key: <select id="selectKey" name="key"></select></li>
+                        <li><label>Keep Case<input type="checkbox"id="caseSensitive" checked>
+                            </label>
+                        </li>
+                        <li><button id="encrypt">Encrypt</button></li>
+                        <li><button id="decrypt">Decrypt</button></li>
+                    </ul>
+                    <textarea id="txtInput" placeholder="Type plain text or cypher text here!" autofocus></textarea>
+                    <p>Output</p>
+                    <textarea id="txtOutput" readonly>
+                    </textarea>
+                </div>
+            </div>
+            <div id="footer" class="centerPadding">
+            </div>
+        </div>
+    </body>
+</html>
