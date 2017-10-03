@@ -1,0 +1,42 @@
+html,body {
+    height: 100%;
+    margin: 0%;
+    background-color: coral;
+}
+#container {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quoteBox {
+    width: 550px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+#buttonMenu {
+    height: 40px;
+}
+.button {
+    height: 40px;
+    width: 40px;
+    color: #b3b3b3;
+    font-size: 25px;
+    border: 0px;
+    border-radius: 2px;
+    float: left;
+    cursor: pointer;
+}
+#get-quote {
+    width: 40;
+    color: #FFF;
+    background-color: coral;
+    float: right;
+}
+.button:hover {
+    opacity: .7;
+}
+#quote {
+    font-size: 30px;
+}

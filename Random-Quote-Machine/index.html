@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote Machine</title>
+        <meta charset="utf-8">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="https://use.fontawesome.com/e5e5eb164d.js"></script>
+        <script type="text/javascript" src="quotes.JSON"></script>
+        <script type="text/javascript" src="random-quote-machine.js"></script>
+        <link rel="stylesheet" href="layout.css" type="text/css">
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="quoteBox">
+                <div id="buttonMenu">
+                    <a class="button" id="tweet-quote" title="Tweet this!" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a class="button"id="tumbler-quote" title="Put this on Tumbler!" target="_blank">
+                        <i class="fa fa-tumblr" aria-hidden="true"></i>
+                    </a>
+                    <button class="button" id="get-quote">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <p id="quote">Lorem ipsum</p>
+                <p id="author">-John Doe</p>
+            </div>
+        </div>
+    </body>
+</html>
