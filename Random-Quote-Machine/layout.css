@@ -52,6 +52,9 @@ html,body {
 #quote {
     font-size: 30px;
 }
+#author {
+    text-align: right;
+}
 @media screen and (max-width:768px){
     #quoteBox {
         margin: 0px;

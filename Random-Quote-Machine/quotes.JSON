@@ -47,5 +47,30 @@
         "quote" : "It is not the task of the University to offer what society asks for, but to give what society needs.",
         "author" : "Edsger W. Dijkstra",
         "citation" : "Answers to questions from students of Software Engineering (2000)"
+    },
+    {
+        "quote" : "Our family are an alternate stratification of poetry and mathematics.",
+        "author" : "Ada Lovelace",
+        "citation" : "Englische Studien, Volume 19 (1894)"
+    },
+    {
+        "quote" : "[The Computer] was the first machine man built that assisted the power of his brain instead of the strength of his arm.",
+        "author" : "Grace Hopper",
+        "citation" : "Space Coast Speech (1987)"
+    },
+    {
+        "quote" : "Humans are allergic to change. They love to say, \"We've always done it this way.\" I try to fight that. That's why I have a clock on my wall that runs counter-clockwise.",
+        "author" : "Grace Hopper",
+        "citation" : "The Wit and Wisdom of Grace Hopper (1987)"
+    },
+    {
+        "quote" : "Science is what we understand well enough to explain to a computer. Art is everything else we do.",
+        "author" : "Donald Knuth",
+        "citation" : "Foreword to the book A=B (1996)"
+    },
+    {
+        "quote" : "If you find that you're spending almost all your time on theory, start turning some attention to practical things; it will improve your theories. If you find that you're spending almost all your time on practice, start turning some attention to theoretical things; it will improve your practice.",
+        "author" : "Donald Knuth",
+        "citation" : "Minimum-length Corridors: Complexity and Approximations (2007)"
     }
 ]
