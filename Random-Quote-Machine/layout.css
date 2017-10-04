@@ -1,21 +1,23 @@
 html,body {
     height: 100%;
     margin: 0%;
+    color: #FEFEFE;
+    text-shadow: 2px 2px #000;
     background-color: #343434;
-    background: url(https://res.cloudinary.com/cetter/image/upload/v1490038763/Hompage/TexturedBackgroundRadGrad.png) no-repeat center center fixed;
-}
-#container {
-    height: inherit;
+    background: url(images/background.png) no-repeat center center fixed;
+    background-size: cover;
 }
 #title {
     font: normal small-caps normal 40px "Lucida Console";
-    color: #FEFEFE;
-    text-shadow: 2px 2px #000;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 60px 0px;
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,0.2);
+}
+#container {
+    height: inherit;
 }
 #quoteBox {
     width: 650px;
@@ -23,7 +25,7 @@ html,body {
     margin-right: auto;
     padding: 25px;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: rgba(0,0,0,0.8);;
 }
 #buttonMenu {
     height: 40px;
@@ -57,6 +59,7 @@ html,body {
         border-radius: 0px;
     }
     #title {
+        margin: 0px 0px 5px 0px;
         font-size: 30px;
     }
 }
