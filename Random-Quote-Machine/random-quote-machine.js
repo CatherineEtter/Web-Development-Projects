@@ -12,9 +12,4 @@ $(document).ready(function() {
     $("#get-quote").on("click",function() {
         changeQuote();
     });
-    /*
-   $.getJSON("quotes.JSON", function(json) {
-       $("#quote").text(json[0].quote);
-   });
-   */
 });

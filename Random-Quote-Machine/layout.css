@@ -3,21 +3,18 @@ html,body {
     margin: 0%;
     color: #FEFEFE;
     text-shadow: 2px 2px #000;
+    font: small-caps 40px "Lucida Console";
     background-color: #343434;
     background: url(images/background.png) no-repeat center center fixed;
     background-size: cover;
 }
 #title {
-    font: normal small-caps normal 40px "Lucida Console";
     margin: 30px 0px 60px 0px;
     display: flex;
-    box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     background-color: rgba(0,0,0,0.2);
-}
-#container {
-    height: inherit;
 }
 #quoteBox {
     width: 650px;
@@ -25,6 +22,8 @@ html,body {
     margin-right: auto;
     padding: 25px;
     border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 25px;
     background-color: rgba(0,0,0,0.8);;
 }
 #buttonMenu {
@@ -34,7 +33,6 @@ html,body {
     height: 40px;
     width: 40px;
     color: #b3b3b3;
-    font-size: 25px;
     border: 0px;
     border-radius: 2px;
     float: left;
@@ -42,6 +40,7 @@ html,body {
 }
 #get-quote {
     width: 40;
+    font-size: 25px;
     color: #FFF;
     background-color: #343434;
     float: right;
@@ -49,10 +48,8 @@ html,body {
 .button:hover {
     opacity: .7;
 }
-#quote {
-    font-size: 30px;
-}
 #author {
+    font-size: 15px;
     text-align: right;
 }
 @media screen and (max-width:768px){
@@ -64,5 +61,8 @@ html,body {
     #title {
         margin: 0px 0px 5px 0px;
         font-size: 30px;
+    }
+    #quoteBox {
+        font-size: 20px;
     }
 }

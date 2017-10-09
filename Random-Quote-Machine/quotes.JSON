@@ -1,10 +1,5 @@
 [
     {
-        "quote" : "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
-        "author" : "Alan Turing",
-        "citation" : "Computing Machinery and Intelligence (1950)"
-    },
-    {
         "quote" : "Those who can imagine anything, can create the impossible.",
         "author" : "Alan Turing"
     },
@@ -19,7 +14,7 @@
         "citation" : "Computing Machinery and Intelligence (1950)"
     },
     {
-        "quote" : "Testing shows the presence, not the absence of bugs",
+        "quote" : "Testing shows the presence, not the absence of bugs.",
         "author" : "Edsger W. Dijkstra",
         "citation" : "Software Engineering Techniques: Report of a conference sponsored by the NATO Science Committee, Rome, Italy, 27-31 Oct. 1969"
     },
