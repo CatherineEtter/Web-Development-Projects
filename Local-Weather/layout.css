@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    user-select: none;
+    background: url("images/earth1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+#content-wrapper {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#temp-wrapper {
+    flex: 0 0 250px;
+    display: flex;
+    height: inherit;
+    /*background-color: rgba(255,0,0,.5);*/
+}
+#thermometer {
+    height: 500px;
+    width: 20px;
+    margin: auto;
+    background-color: orange;
+    border: 6px solid #111;
+    border-radius: 20px;
+}
+/**************/
+#data-wrapper {
+    flex: 0 0 300px;
+    font: normal small-caps bold 20px verdana;
+    color: #CCC;
+    text-shadow: 1px 1px #555, 2px 2px #000;
+    text-align: center;
+    /*background-color: rgba(255,255,0,.5);*/
+}
+#location, #full-temp {
+    font-size: 30px;
+}
+#description, #humidity {
+    font-size: 15px;
+}
+#icon {
+    width: 150px;
+}
+#full-temp:hover {
+    cursor: pointer;
+    color: #FFF;
+}
