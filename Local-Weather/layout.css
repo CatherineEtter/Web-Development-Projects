@@ -12,19 +12,12 @@ html,body{
     align-items: center;
     flex-direction: row;
 }
-#temp-wrapper {
-    flex: 0 0 250px;
-    display: flex;
-    height: inherit;
-    /*background-color: rgba(255,0,0,.5);*/
-}
 #data-wrapper {
     flex: 0 0 300px;
     font: normal small-caps bold 20px verdana;
     color: #CCC;
     text-shadow: 1px 1px #555, 2px 2px #000;
     text-align: center;
-    /*background-color: rgba(255,255,0,.5);*/
 }
 #location, #full-temp {
     font-size: 30px;
