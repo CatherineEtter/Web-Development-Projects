@@ -2,8 +2,7 @@ html,body{
     height: 100%;
     margin: 0px;
     user-select: none;
-    background: url("images/earth1.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background-color: #121212;
 }
 #content-wrapper {
     height: inherit;
@@ -11,11 +10,15 @@ html,body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    /*
+    background: url("images/earth1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    */
 }
 #data-wrapper {
     flex: 0 0 300px;
     font: normal small-caps bold 20px verdana;
-    color: #CCC;
+    color: #CFCFCF;
     text-shadow: 1px 1px #555, 2px 2px #000;
     text-align: center;
 }

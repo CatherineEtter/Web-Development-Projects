@@ -1,9 +1,16 @@
 $(document).ready(function() {
+    randBackground();
     getLocation();
     $("#temperature").on("click", function() {
         switchTemp();
     });
 });
+function randBackground() {
+    var images = ["earth1.jpg","earth2.jpg","earth3.jpg","earth4.jpg","earth5.jpg"];
+    var randNum = Math.floor(Math.random()*images.length);
+    
+    $("#content-wrapper").css({'background':'url(images/'+images[randNum]+') no-repeat center center fixed','background-size' : 'cover'});
+}
 function getLocation() {
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(displayData);
