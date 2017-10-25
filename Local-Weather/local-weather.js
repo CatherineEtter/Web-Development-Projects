@@ -5,6 +5,7 @@ $(document).ready(function() {
         switchTemp();
     });
 });
+//Images sourced from https://images.nasa.gov/#/
 function randBackground() {
     var images = ["earth1.jpg","earth2.jpg","earth3.jpg","earth4.jpg","earth5.jpg"];
     var randNum = Math.floor(Math.random()*images.length);
