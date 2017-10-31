@@ -1,0 +1,4 @@
+This web app allows the user to decrypt and encrypt messages simply by typing them in the top input box.
+The user can then select the key to specify how far the encryption algorithm "rotates" the original message.
+The user may also specify if the output should be case-sensitive or not.
+Any unicode can be inserted. However this app will only encrypt using the English alphabet.
