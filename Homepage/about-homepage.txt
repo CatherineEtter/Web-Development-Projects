@@ -1,0 +1,2 @@
+This is a simple layout for a homepage.
+This homepage features the time, date, a google search bar, and variable amount of links that act as shortcuts to various websites.
