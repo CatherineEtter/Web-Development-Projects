@@ -1,2 +1,2 @@
 This webapp utilizes an API to get and display data about a user's location.
-The background changes randomly.
+The background changes randomly and the display temperature can be changed from Farenheit to Celsius, and vice versa.

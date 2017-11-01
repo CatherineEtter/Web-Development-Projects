@@ -14,7 +14,7 @@ html,body{
 #data-wrapper {
     flex: 0 0 300px;
     font: normal small-caps bold 20px verdana;
-    color: #CFCFCF;
+    color: #FCFCFC;
     text-shadow: 1px 1px #555, 2px 2px #000;
     text-align: center;
 }
