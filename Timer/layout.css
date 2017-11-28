@@ -1,0 +1,34 @@
+html,body {
+    height: 100%;
+    margin: 0%;
+    background-color: #003366;
+    color: #FFF;
+}
+#wrapper {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font: bold small-caps normal 20px Arial;
+}
+#timer {
+    font: bold 200px arial;
+    line-height: 0px;
+}
+#button-list {
+    list-style: none;
+    padding: 0px;
+}
+#button-list li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+}
+button {
+    height: 40px;
+    min-width: 100px;
+    font: small-caps 20px arial;
+    background-color: #F2BF49;
+    border: none;
+}
