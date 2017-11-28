@@ -10,10 +10,10 @@ html,body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font: bold small-caps normal 20px Arial;
+    font: bold small-caps normal 20px sans-serif;
 }
 #timer {
-    font: bold 200px arial;
+    font: bold 250px sans-serif;
     line-height: 0px;
 }
 #button-list {
@@ -28,7 +28,11 @@ html,body {
 button {
     height: 40px;
     min-width: 100px;
-    font: small-caps 20px arial;
+    font: bold 20px sans-serif;
+    color: #725208;
     background-color: #F2BF49;
     border: none;
+}
+button:hover {
+    background-color: #F4CC6E;
 }
