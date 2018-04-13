@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CS Symposium</title>
-        <meta charset="utf-8">
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-        <script src="src/jquery-3.2.1.slim.min.js"></script>
-        <script src="src/script.js"></script>
-        <link rel="stylesheet" href="src/layout.css" type="text/css">
-    </head>
-    <body>
-        <div id="wrapper">
-            <div id="header">
-                <p>CS Symposium</p>
-            </div>
-            <div id="timer">
-                <p id="disp-time">10:00</p>
-            </div>
-            <div id="buttons"> 
-                <ul id="button-list">
-                    <li>
-                        <button id="btn-start">Start</button>
-                    </li>
-                    <li>
-                        <button id="btn-stop">Stop</button>
-                    </li>
-                    <li>
-                        <button id="btn-refresh">Refresh</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </body>
+<head>
+  <title>CS Symposium</title>
+  <meta charset="utf-8">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+  <script src="src/jquery-3.2.1.slim.min.js"></script>
+  <script src="src/script.js"></script>
+  <link rel="stylesheet" href="src/layout.css" type="text/css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <p>CS Symposium</p>
+    </div>
+    <div id="timer">
+      <p id="disp-time">10:00</p>
+    </div>
+    <div id="buttons">
+      <ul id="button-list">
+        <li>
+          <button id="btn-start" class="btn">Start</button>
+        </li>
+        <li>
+          <button id="btn-stop" class="btn">Stop</button>
+        </li>
+        <li>
+          <button id="btn-refresh" class="btn">Refresh</button>
+        </li>
+        <li>
+          <button id="btn-enter-time" class="btn" onclick="enterTime();">Enter Time</button>
+          <input type="number" id="inputMM" class="numBox" min="0" max="60" maxlength="2" placeholder="mm"></input>
+          <input type="number" id="inputSS" class="numBox" min="0" max="60" maxlength="2" placeholder="ss"></input>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
 </html>
 <!--
 Works in Chrome and Firefox(latest version).

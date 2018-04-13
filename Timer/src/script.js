@@ -1,14 +1,15 @@
 var interval;
-
+var StartMM = 10;
+var StartSS = 00;
 //Gets current time and counts down until 0
 function start() {
     var time = $("#disp-time").text();
     var minutes = time.substr(0,time.indexOf(':'));
     var seconds = time.substr(time.indexOf(':') + 1,time.length);
     //(!interval) protects against repeated clicks on start
-    if(!interval) { 
+    if(!interval) {
         interval = setInterval(function() {
-            if(minutes == 0 && seconds == 1) { 
+            if(minutes == 0 && seconds == 1) {
                 $("body").css("background-color","red");
                 seconds--;
                 stop();
@@ -26,12 +27,21 @@ function start() {
 function refresh() {
     stop();
     $("body").css("background-color","#003366");
-    $("#disp-time").text("10:00");
+    $("#disp-time").text(StartMM + ":" + (StartSS < 10 ? '0' + StartSS : StartSS));
 }
 //Stops countdown
 function stop() {
     clearInterval(interval);
     interval = null; //So (!interval) returns true if there is no interval running
+}
+function enterTime() {
+  var minutes = parseInt($("#inputMM").val()) ;
+  var seconds = parseInt($("#inputSS").val());
+  if((minutes <= 60 && minutes >=0) && (seconds <= 59 && seconds >=0)) {
+    StartMM = minutes;
+    StartSS = seconds;
+    refresh();
+  }
 }
 $(document).ready(function() {
     refresh();
@@ -43,5 +53,8 @@ $(document).ready(function() {
     });
     $("#btn-refresh").on("click",function() {
         refresh();
+    });
+    $("#btn-enter-time").on("click",function() {
+        enterTime();
     });
 });
